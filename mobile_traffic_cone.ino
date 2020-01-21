@@ -1,4 +1,4 @@
-//Librerias para el uso de la aplicacion blynk
+//Libraries for the use of the Blynk App
 #define BLYNK_USE_DIRECT_CONNECT
 #include <SoftwareSerial.h>
 SoftwareSerial DebugSerial(2, 3);
