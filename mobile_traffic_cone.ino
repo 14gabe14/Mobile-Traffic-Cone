@@ -61,7 +61,7 @@ void myTimerEvent(){ //timer event
   }
 }
 BLYNK_WRITE(V1){// widget WRITEs to Virtual Pin V1
-  value = param.asInt(); //'value' cambiara en funcion de la activacion del boton
+  value = param.asInt(); //'value' will change given the activation of the button
 }
 
 void setup() {
